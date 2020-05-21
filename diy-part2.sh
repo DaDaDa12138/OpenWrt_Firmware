@@ -8,13 +8,6 @@
 # Blog: https://p3terx.com
 #============================================================
 
-# Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-
-#!/bin/bash
-# 本脚本工作目录必须是git clone的主目录
-# x86_64
-
 # Add Some Package
 mkdir -p package/custom
 cd package/custom
